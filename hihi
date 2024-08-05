@@ -1,0 +1,5 @@
+
+import os
+
+fileNames = os.listdir()
+print(fileNames) 

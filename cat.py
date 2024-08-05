@@ -9,9 +9,13 @@
 #readline과 readlines의 차이점 확인하기 
 
 import sys
+import os
+
+fileNames = os.listdir()
+print(fileNames)
 
 filename = sys.argv[1]
-
+file
 
 #예외처리
 try:
