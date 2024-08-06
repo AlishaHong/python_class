@@ -14,6 +14,7 @@ class LottoGenerator(QWidget):
         self.layout.addWidget(self.label)
 
         self.button = QPushButton('Generate Numbers', self)
+        self.button.setStyleSheet("font-size: 20px; color: green; font-weight : bold;")  # 스타일 시트 추가
         self.button.clicked.connect(self.generate_numbers)
         self.layout.addWidget(self.button)
 

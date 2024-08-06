@@ -24,3 +24,4 @@ if __name__ == '__main__':
         result += i
     
     print(f'{start}에서 {end}까지의 result : {result}')
+    
