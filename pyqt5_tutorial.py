@@ -20,7 +20,7 @@ class MyApp(QWidget):
         #btn객체의 레이아웃(버튼을 창 위치의 140,70에 둔다)
         btn.move(140, 70)
         #버튼 비활성화
-        btn.setDisabled(True)
+        btn.setDisabled(False)
         
         #버튼 사이즈
         #sizeHint는 기본사이즈를 의미함
@@ -41,3 +41,6 @@ if __name__ == '__main__':
    ex = MyApp()
    #창이 종료될 때 exit함수 실행
    sys.exit(app.exec_())
+   
+   
+   
